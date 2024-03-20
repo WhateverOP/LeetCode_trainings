@@ -13,7 +13,7 @@ def get_max(nums):
                 counter_max = counter
             counter = 0
     if counter > counter_max:
-                counter_max = counter
+        counter_max = counter
     return counter_max
 
 nums = [1,1,0,1,1,1]
